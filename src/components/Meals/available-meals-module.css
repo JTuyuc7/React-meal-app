@@ -11,6 +11,35 @@
     padding: 0;
 }
 
+.mealsLoading {
+    background-color: blanchedalmond;
+    justify-content: center;
+    max-width: 60rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+}
+
+.mealsLoading p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.errorMeals {
+    background-color: blanchedalmond;
+    justify-content: center;
+    max-width: 60rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+}
+
+.errorMeals p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+
 @keyframes meals-appear {
     from {
         opacity: 0;
